@@ -2,10 +2,10 @@
 <widget id="com.ionicframework.mattiagobbo452743" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>MattiaGobbo</name>
   <description>
-        An Ionic Framework and Cordova project.
+        Mattia Gobbo Design App
     </description>
-  <author email="hi@ionicframework" href="http://ionicframework.com/">
-      Ionic Framework Team
+  <author email="igobbomat@gmail.com" href="http://mattiagobbo.altervista.org/">
+      Mattia Gobbo
     </author>
   <content src="index.html"/>
   <access origin="*"/>
@@ -16,4 +16,5 @@
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
+  <icon src="img/icon.png" />
 </widget>
