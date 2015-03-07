@@ -1,0 +1,10 @@
+<ion-view view-title="Portfolio">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-icon-right" ng-repeat="portfolio in portfolios" href="#/app/portfolio/{{portfolio.id}}">
+        <h2>{{portfolio.titolo}}</h2>
+		<i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

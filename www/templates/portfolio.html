@@ -1,0 +1,16 @@
+<ion-view view-title="Portfolio">
+	<ion-content class="portfolio-box" ng-repeat="portfolio in portfolios">
+  		<img src="{{portfolio.img_dettaglio_1}}" class="img-responsive" />
+		<div class="col text-center portfolio-titolo">
+			{{portfolio.titolo}}
+		</div>
+		<div ng-bind-html="portfolio.testo_1" class="col text-center portfolio-testo"></div>
+		<div ng-bind-html="portfolio.testo_2" class="col text-center portfolio-testo"></div>
+		<img src="{{portfolio.img_dettaglio_2}}" class="img-responsive" />
+		<div ng-bind-html="portfolio.testo_3" class="col text-center portfolio-testo"></div>
+		<div ng-bind-html="portfolio.testo_4" class="col text-center portfolio-testo"></div>
+		<img src="{{portfolio.img_dettaglio_3}}" class="img-responsive" />
+		<div ng-bind-html="portfolio.testo_5" class="col text-center portfolio-testo"></div>
+		<div ng-bind-html="portfolio.testo_6" class="col text-center portfolio-testo"></div>
+	</ion-content>
+</ion-view>

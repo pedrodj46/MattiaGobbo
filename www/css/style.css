@@ -1,0 +1,63 @@
+/* Empty. Add your own CSS if you like */
+body{
+	font-family: 'Raleway', serif;
+}
+.header-item{
+	font-weight:700 !important;
+}
+.img-responsive{
+	width:100%;
+	height:auto;
+}
+.portfolio-titolo{
+	font-size:2rem;
+	font-weight:700;
+	padding-top:2.5rem;
+}
+.portfolio-testo{
+	padding-top:2rem;
+}
+.portfolio-box .img-responsive{
+	margin-top:2rem;
+}
+.portfolio-box .img-responsive:first-child{
+	margin-top:0rem;
+}
+.portfolio-box{
+	margin-bottom:2rem;
+}
+.col{
+	padding-left:0.5rem;
+	padding-right:0.5rem;
+}
+.about-box{
+	margin-top:1.5rem;
+}
+.about-box i{
+	margin-bottom:0.5rem;
+}
+.about-box a{
+	color:#000;
+}
+.about-social{
+	padding-bottom:4rem;
+}
+.about-social a{
+	color:#000;
+}
+.contact-box i{
+	font-size:2.6rem;
+}
+.contact-testo{
+	margin-top:0.5rem;
+}
+.contact-follow{
+	margin-top:3rem;
+	margin-bottom:1.5rem !important;
+}
+.about-box-link a, .about-box-link a:hover, .about-box-link a:active, .about-box-link a:focus{
+	color:#000;
+}
+.portfolio-box a, .portfolio-box a:hover, .portfolio-box a:active, .portfolio-box a:focus{
+	color:#000;
+}

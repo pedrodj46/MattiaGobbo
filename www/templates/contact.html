@@ -1,0 +1,29 @@
+<ion-view view-title="CONTACT">
+  <ion-content class="contact-box">
+  	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11121.789896021626!2d12.560831709725118!3d45.82232293486744!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47795d7e8d0f19af%3A0x75ba28fa469a46a9!2sVia+Tremeacque%2C+6%2C+31040+Mansue&#39;+TV!5e0!3m2!1sit!2sit!4v1425676196170" width="100%" height="340" frameborder="0" style="border:0"></iframe>
+      <div class="row responsive-sm" ng-repeat="contact in contacts">
+	  	<div class="col text-center about-box">
+			<i class="ion-ios-location"></i><br />
+			<div class="contact-testo">{{contact.via}}<br />{{contact.cap}} - {{contact.citta}}</div>
+		</div>
+	  	<div class="col text-center about-box">
+			<i class="ion-social-whatsapp-outline"></i><br />
+			<div class="contact-testo"><a href="tel:{{contact.telefono}}">{{contact.telefono}}</a></div>
+		</div>
+	  	<div class="col text-center about-box">
+			<i class="ion-ios-at"></i><br />
+			<div class="contact-testo"><a href="mailto:{{contact.email}}">{{contact.email}}</a></div>
+		</div>
+	  </div>
+		<div class="row responsive-sm">
+			<div class="col contact-follow text-center">Follow me:</div>
+		</div>
+	  <div class="row about-social">
+	  	<div class="col-20 text-center"><a href="{{contact.facebook}}"><i class="ion-social-facebook"></i></a></div>
+	  	<div class="col-20 text-center"><a href="{{contact.twitter}}"><i class="ion-social-twitter"></i></a></div>
+	  	<div class="col-20 text-center"><a href="{{contact.pinterest}}"><i class="ion-social-github"></i></a></div>
+	  	<div class="col-20 text-center"><a href="{{contact.linkedin}}"><i class="ion-social-linkedin"></i></a></div>
+  	  	<div class="col-20 text-center"><a href="{{contact.soundcloud}}"><i class="ion-social-youtube"></i></a></div>
+	  </div>
+  </ion-content>
+</ion-view>
